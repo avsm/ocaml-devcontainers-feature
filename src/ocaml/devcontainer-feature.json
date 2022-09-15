@@ -13,5 +13,18 @@
             "default": "4.14.0",
             "description": "Version of the OCaml compiler."
         }
-    }
+    },
+    "customizations": {
+      "vscode": {
+          "extensions": [
+            "ocamllabs.ocaml-platform"
+          ]
+      }
+    },
+    "capAdd": [
+        "SYS_PTRACE"
+    ],
+    "securityOpt": [
+        "seccomp=unconfined"
+    ]
 }
