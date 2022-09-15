@@ -2,7 +2,7 @@
     "name": "OCaml",
     "id": "ocaml",
     "version": "1.0.0",
-    "description": "A feature to remind you of your favorite color",
+    "description": "Install the OCaml compiler and associated tools.",
     "options": {
         "ocaml_version": {
             "type": "string",
