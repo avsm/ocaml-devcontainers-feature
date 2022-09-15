@@ -1,0 +1,17 @@
+{
+    "name": "OCaml",
+    "id": "ocaml",
+    "version": "1.0.0",
+    "description": "A feature to remind you of your favorite color",
+    "options": {
+        "ocaml_version": {
+            "type": "string",
+            "enum": [
+                "4.14.0",
+                "5.0.0"
+            ],
+            "default": "4.14.0",
+            "description": "Version of the OCaml compiler."
+        }
+    }
+}
