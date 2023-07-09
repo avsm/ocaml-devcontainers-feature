@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "Install the OCaml compiler and associated tools.",
     "options": {
-        "ocaml_version": {
+        "version": {
             "type": "string",
             "proposals": [
                 "4.14.1",
